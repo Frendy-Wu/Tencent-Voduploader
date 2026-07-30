@@ -94,14 +94,6 @@ dist\LiuguangVODUploader.exe
 
 上传历史只是本机记录，不会自动判断腾讯云中的视频之后是否被删除。
 
-## 安全建议
-
-- 不要把 `SecretId` 或 `SecretKey` 提交到 GitHub。
-- 使用只具备 `ApplyUpload` 和 `CommitUpload` 权限的专用 CAM 子用户。
-- 不要把配置文件或历史记录与 EXE 一起分发。
-- 如果怀疑密钥泄露，请立即轮换密钥。
-- 公司内部使用时建议创建 GitHub 私有仓库。
-
 ## 开源许可证
 
 本项目使用 [MIT License](LICENSE)。
