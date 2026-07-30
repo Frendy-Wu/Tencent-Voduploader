@@ -94,13 +94,6 @@ If the user chooses to remember the SecretKey, it is stored in the local configu
 
 Upload history is local metadata. It does not automatically detect whether a video has later been deleted from Tencent Cloud.
 
-## Security
-
-- Never commit a `SecretId` or `SecretKey`.
-- Use a dedicated CAM sub-user with only `ApplyUpload` and `CommitUpload`.
-- Do not distribute configuration or history files with the executable.
-- Rotate the API key immediately if it may have been exposed.
-- Prefer a private GitHub repository for internal deployments.
 
 ## License
 
