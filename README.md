@@ -1,8 +1,8 @@
-# Liuguang VOD Uploader
+# TencentVOD VOD Uploader
 
 [简体中文](README.zh-CN.md)
 
-Liuguang VOD Uploader is a lightweight Windows desktop application for uploading local video files directly to Tencent Cloud Video on Demand (VOD). It is designed for small internal teams that need a simple upload workflow without deploying an additional application server.
+TencentVOD VOD Uploader is a lightweight Windows desktop application for uploading local video files directly to Tencent Cloud Video on Demand (VOD). It is designed for small internal teams that need a simple upload workflow without deploying an additional application server.
 
 Videos are transferred directly from the user's computer to Tencent Cloud VOD through the official server upload SDK.
 
@@ -76,7 +76,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 The standalone executable is created at:
 
 ```text
-dist\LiuguangVODUploader.exe
+dist\TencentVODVODUploader.exe
 ```
 
 The recipient does not need Python installed.
