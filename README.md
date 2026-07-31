@@ -67,19 +67,6 @@ On first launch, open **VOD Configuration** and enter:
 - `SubAppId` — optional; leave empty when uploading to the default application
 - API region — normally `ap-guangzhou`
 
-## Build a Windows executable
-
-```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
-```
-
-The standalone executable is created at:
-
-```text
-dist\TencentVODVODUploader.exe
-```
-
-The recipient does not need Python installed.
 
 ## Local data
 
