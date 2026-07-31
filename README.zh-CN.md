@@ -67,20 +67,6 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\run.ps1
 - `SubAppId`：可选；上传到默认应用时留空
 - 接入地域：通常为 `ap-guangzhou`
 
-## 打包 Windows EXE
-
-```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
-```
-
-打包结果位于：
-
-```text
-dist\LiuguangVODUploader.exe
-```
-
-同事只需要这个 EXE，不需要安装 Python。
-
 ## 本地数据
 
 软件会把用户相关数据保存在项目目录之外：
